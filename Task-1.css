@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a { 
+    text-decoration: none;
+    font-size: 30px;
+    font-style: italic;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    color: black;
+    font-weight: bold;
+    
+}
+a#B, a#C, a#D, a#E {
+    padding-left: 50px;
+    font-style: italic;
+    color: black;
+}
+nav {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 10px;
+    margin-left: 20px;
+    background: linear-gradient(to right, #c8c8c8, #7b7b7b);
+    border-radius: 10px;
+    position: fixed;
+    width: 97%;
+}
+.nav-links {
+    display: flex;
+    gap: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+div#AA {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+}
+
+body {
+    background-image: url('interiorm.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 750px;
+}
+
+#AB {
+    height: 350px;
+    width: 50%;
+    object-fit: cover;
+    border-radius: 20px 0px 0px 20px;
+}
+
+
+#AC {
+    justify-content: center;
+    padding-left: 20px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#services {
+    background-color: rgba(247, 247, 247, 0.811);
+    height: 700px;
+    width: 82%;
+    margin-left: 135px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 220px;
+}
+
+.service-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-image {
+    height: 100%;
+    width: 58%;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+}
+
+.service-content {
+    padding: 20px;
+    font-size: 16px;
+}
+
+.service-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#AE{
+        background-image: url('ser1.jpeg');
+        background-repeat: no-repeat;
+        background-size: 100% 750px;
+
+}
+#AF{
+   /* background-image: url('contack.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 500px;*/
+    background-color: rgb(204, 194, 194);
+}
+#contact{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+    font-size:25px;
+    color: rgb(0, 0, 0);
+}
+#hand{
+    font-style: italic;
+    font-size:60px;
+    color: rgb(0, 0, 0);
+}
+#AH{
+    font-size: 50px;
+    font-style: italic;
+}
+footer{
+    background-color: rgb(226, 226, 50);
+    text-align: center;
+}
+#p{
+    font-size: 25px;
+    font-style: italic;
+    padding-top: 120px;
+    padding-left: 270px;
+    font-family: "Brush Script MT", cursive;
+}
+#PP{
+    font-size: 50px;
+    font-style: italic;
+    font-family: "Brush Script MT", cursive;
+}
